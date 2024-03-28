@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url('wp9078348.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#a{
+    border: 5px solid rgb(255, 0, 0);
+    color: rgb(255, 192, 203);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+    position: absolute;
+    
+}
+#q{
+    height: 150px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2%;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+}
+#answer{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 5%;
+}
+#f{
+    border: 5px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: #fff;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    border-radius: 30%;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+#g{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 60%;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: #fff;
+    border-radius: 30%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+#d{
+   width: 300px;
+   height: 100px;
+   position: absolute;
+   margin-top: 20%;
+   margin-left: 10%;
+   border-radius: 30%;
+   border: 5px solid rgb(255, 255, 255);
+   background-color: transparent;
+   color: #fff;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: monospace;
+}
+#h{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 60%;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: #fff;
+    border-radius: 30%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+#h:hover, #h:active{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+#g:hover, #g:active{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+#f:hover, #f:active{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+#d:hover, #d:active{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+#h:hover{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#g:hover{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#f:hover{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#d:hover{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#result{
+    width: 200px;
+    height: 100px;
+  
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+    color: white;
+    font-size: 20px;
+}
+#icon{
+    position: absolute;
+    transform: translate(5,5);
+    top: 90%;
+    cursor: pointer;
+
+}
+.fa-house{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.fa-arrow-left-long{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 1px;
+}
